@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat-cdl
-        image: SanjidakramN/java-web-app-cicd:latest
+        image: sanjidakram/java-web-app-cicd
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
